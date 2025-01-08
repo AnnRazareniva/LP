@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="LP.css">
+    <script src="LP_Main.js" defer></script>
+</head>
+<body>
+    <h1>Password Manager</h1>
+    <div id="password-form">
+        <input type="text" id="site-url" placeholder="URL" required>
+        <input type="text" id="site-login" placeholder="Login" required>
+        <input type="password" id="site-password" placeholder="Password" required>
+        <button id="generate-password">Generate Password</button>
+        <button id="add-password">Add Password</button>
+    </div>
+    <h2>Saved Passwords</h2>
+    <ul id="password-list"></ul>
+</body>
+</html>
